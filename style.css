@@ -1,19 +1,21 @@
 body {
-  font-family: Comic Sans MS;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: #f0f0f0;
+  margin: 0; /* Optional: to remove default margin */
 }
 
 .card {
-  background-color: #002366
+  background-color: #002366;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
-  width: width: 350px;
+  width: 350px; /* fixed the duplicated "width:" */
+  color: white; /* Added for better contrast */
 }
 
 button {
@@ -29,3 +31,4 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
