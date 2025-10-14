@@ -1,10 +1,10 @@
 const facts = [
-  "I love drawing and creating digital art!",
+  "I love drawing and painting.",
   "My favorite sport is basketball.",
-  "I enjoy coding small games.",
-  "I like to bake cupcakes on weekends."
+  "I enjoy reading.",
+  "I like to bake."
 ];
-
+background-color:#002366
 const factParagraph = document.getElementById("fact");
 const button = document.getElementById("changeButton");
 
