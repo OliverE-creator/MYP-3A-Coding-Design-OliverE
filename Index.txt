@@ -8,8 +8,8 @@
 </head>
 <body>
   <div class="card">
-    <h1>My favorite hobby</h1>
-    <p id="fact">I love drawing and creating digital art!</p>
+    <h1>My favorite hobby is cooking</h1>
+    <p id="fact">I love drawing and i love to paint!</p>
     <button id="changeButton">Show another fun fact</button>
   </div>
 
